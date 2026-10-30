@@ -1,0 +1,23 @@
+{
+  "name": "api-tienda-playa",
+  "version": "1.0.0",
+  "description": "API REST (Node.js + Express + MySQL) para la tienda de ropa de playa Playa Brisa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "commonjs"
+}
